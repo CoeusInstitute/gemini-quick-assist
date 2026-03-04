@@ -8,7 +8,7 @@
 // @twitter         https://x.com/CoeusInstitute
 // @homepage        https://coeus.institute
 // @include      explorer.exe
-// @compilerOptions -lwinhttp -luser32 -lkernel32 -lgdi32 -ldwmapi -luxtheme -lcomctl32 -std=c++20
+// @compilerOptions -lwinhttp -luser32 -lkernel32 -lgdi32 -ldwmapi -luxtheme -lcomctl32
 // @license MIT
 // ==/WindhawkMod==
 
@@ -1164,4 +1164,5 @@ void Wh_ModUninit() {
         WaitForSingleObject(g_hThread, 2000);
         CloseHandle(g_hThread);
     }
+
 }
