@@ -2,7 +2,7 @@
 // @id           gemini-quick-assist
 // @name         Gemini AI Assistant
 // @description  Press Ctrl+Shift+G to send selected text to Gemini AI.
-// @version      1.4.0
+// @version      1.4.2
 // @author       Coeus Institute
 // @github          https://github.com/CoeusInstitute
 // @twitter         https://x.com/CoeusInstitute
@@ -1166,3 +1166,4 @@ void Wh_ModUninit() {
     }
 
 }
+
